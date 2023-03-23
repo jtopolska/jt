@@ -1,9 +1,3 @@
-// з цим кодом не корректно працює
-// window.onresize = function () {
-//     location.reload();
-// };
-
-
 const textArray = [
     "I am a Front End Developer",
     "I am an Avid Learner",
@@ -17,7 +11,6 @@ const getAnimFromIndex = (index) => (
     repeatDelay: 2,
     yoyo: true,
     text: {
-    //this is the code that replaces the text
     value: textArray[index],
     delimiter: ""
     },
@@ -39,8 +32,6 @@ tl1.to(".span", {
     repeat: -1,
 })
 
-//cursor logic
-//blink only when not typing or deleting
 const tl2 = gsap.timeline()
 
 tl2.to("h2", {
@@ -54,7 +45,6 @@ tl2.to("h2", {
     ],
     repeat: -1,
 })
-
 
 
 const firstHeight = document.querySelector('.front-section');
@@ -183,30 +173,6 @@ descriptionBtn.forEach((btn, index) => {
         count = 0;
     }
 })
-
-
-
-// const projectDisplay = document.querySelectorAll('.project-display');
-// const linkProject = document.querySelector('.link-projects');
-// const linkContact = document.querySelector('.link-contacts');
-
-// linkProject.addEventListener('click', () => {
-//     setDelay();    
-// })
-// linkContact.addEventListener('click', () => {
-//     setDelay();
-// });
-
-// function setDelay() {
-//     // відложуємо появлення анімації, щоб не було перекриття(анімація перекриває меню)
-//     AOS.init({
-//         delay: 1300        
-//     });
-//     // робимо перезагрузку, щоб повернути попередні значення
-//     setTimeout(function () {
-//         history.go();
-//     }, 800);
-// }
 
 
 
