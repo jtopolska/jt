@@ -43,22 +43,6 @@ h1 span {
     color: #2F8F9D;
 }
 
-button {
-    width: 400px;
-    background-color: #2F8F9D;
-    color: #fff;
-    margin: 50px 10px;
-    padding: 18px 15px 15px 15px;
-    border: none;
-    border-radius: 5px;
-    font-family: var(--f2-family);
-    font-size: 22px;
-}
-
-button:hover {
-    cursor: pointer;
-}
-
 .images {
     display: flex;
     justify-content: center;
@@ -132,12 +116,6 @@ img {
         height: 1250px;
     }
 
-    button {
-        width: 300px;
-        padding: 13px 10px 10px 10px;
-        font-size: 20px;
-    }
-
     h1 {
         font-size: 33px;
     }
@@ -150,12 +128,6 @@ img {
 
     section {
         height: 1050px;
-    }
-
-    button {
-        width: 240px;
-        padding: 10px 7px 7px 7px;
-        font-size: 18px;
     }
 
     h1 {
