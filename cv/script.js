@@ -13,7 +13,6 @@ tl.from('.node', {y: 200, x: 200})
 tl.from('.frontend', {y: 200, x: -200})
 tl.from('.introduction', {y: -200, x: 200})
 tl.from('.bootstrap', {y: -200, x: -200})
-tl.from('button', {y: 80})
 
 
 particlesJS("particles-js-one", {
