@@ -8,7 +8,12 @@ const textArray = [
     "I am a Full Stack Developer",
     "I am an Avid Learner",
     "I love to create"
-]
+];
+
+document.addEventListener('DOMContentLoaded', () => {
+    const year = new Date().getFullYear(); // Получение 4-значного года [4]
+    document.getElementById('year').innerText = year; // Вставка в HTML
+});
 
 const getAnimFromIndex = (index) => (
 {
